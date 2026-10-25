@@ -51,6 +51,7 @@ em { font-family: var(--font-serif); font-weight: 400; }
 h2 { font-size:clamp(36px,4.2vw,64px); line-height:1.1; letter-spacing:-.045em; font-weight:400; }
 .section-heading .eyebrow, .about-copy .eyebrow { margin-bottom:20px; }
 .section-note { font-size:11px; line-height:1.7; }
+.project-grid > * { min-width: 0; }
 .project-grid { display:grid; grid-template-columns:1fr 1fr; gap:28px; }
 .artwork-frame { overflow:hidden; position:relative; }
 .artwork { min-height:280px; aspect-ratio:1.12; position:relative; overflow:hidden; display:grid; place-items:center; color:#252725; transition:transform var(--duration-hover) var(--ease-portfolio); }
