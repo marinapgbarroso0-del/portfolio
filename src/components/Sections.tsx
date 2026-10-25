@@ -3,9 +3,7 @@ import { projects } from "@/data/projects";
 import { ProjectCard } from "./ProjectCard";
 import { Reveal } from "./Reveal";
 
-export function Hero() {
-  return <section className="hero page-width" aria-labelledby="hero-title"><div className="hero-top"><p className="eyebrow"><span className="status-dot" /> MARINA BARROSO · GRAPHIC DESIGN</p><span className="tiny-note">Independent mind.<br />Thoughtful design.</span></div><Reveal><h1 id="hero-title">Ideas with feeling.<br /><span className="hero-second">Design with <em>purpose.</em><span className="hero-flower" aria-hidden="true">✳</span></span></h1></Reveal><div className="hero-bottom"><p>A space for visual identities, creative explorations,<br className="desktop-break" /> and stories told through design.</p><Link className="text-link" href="#work">Explore my work <span aria-hidden="true">↓</span></Link></div></section>;
-}
+export { Hero } from "./Hero";
 export function Showreel() {
   return <section className="showreel page-width" id="showreel" aria-labelledby="showreel-title"><div className="reel-layout"><span className="eyebrow">A LITTLE OF EVERYTHING</span><h2 id="showreel-title">Always in <em>motion.</em></h2><span className="reel-note">Showreel coming soon<br />Video placeholder</span><div className="reel-symbol" aria-hidden="true">✳</div></div></section>;
 }

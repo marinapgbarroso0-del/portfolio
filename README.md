@@ -1,6 +1,6 @@
 # Marina Barroso — Graphic Design Portfolio
 
-A responsive portfolio built with Next.js App Router, TypeScript, Tailwind CSS, and Motion for React. The primary background is `#262626`. Google Fonts supplies Instrument Serif and DM Sans, with local system-font fallbacks. No accounts, environment variables, API keys, or paid services are needed to run it.
+A responsive portfolio built with Next.js App Router, TypeScript, Tailwind CSS, and Motion for React. The primary background is `#262626`. Instrument Serif (regular and italic) and DM Sans are bundled locally from Google Fonts, with system-font fallbacks. No accounts, environment variables, API keys, or paid services are needed to run it.
 
 ## Preview on your computer
 
@@ -42,7 +42,7 @@ Open **`src/components/Sections.tsx`** to edit the introduction, about text, sho
 
 ### Change the design
 
-Open **`src/app/globals.css`**. The `@theme` block at the top centralizes colors, fonts, section spacing, and the hover easing curve. Additional layout and timing tokens are in `:root`. Motion reveal settings are in **`src/components/Reveal.tsx`**. Font files load from Google when visitors have Internet access; the site remains readable using fallback fonts if that request fails. No font download is needed at build time.
+Open **`src/app/globals.css`**. The `@theme` block at the top centralizes colors, fonts, section spacing, and the hover easing curve. Additional layout and timing tokens are in `:root`. Motion reveal settings are in **`src/components/Reveal.tsx`**. Font files and their open-source licenses are in `public/fonts/`. They load from the website itself; no external font request or build-time download is needed.
 
 ## Check the website
 
